@@ -1,0 +1,15 @@
+theme: jekyll-theme-minimal
+
+defaults:
+    -
+    scope:
+      path: "_posts"
+      type: "posts"
+
+
+collections:
+  posts:
+    permalink: /news/:year/:month/:day/:title/
+    output: true
+
+name: 3 Talks a Week

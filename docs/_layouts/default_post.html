@@ -6,8 +6,8 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   <link href="{{ site.baseurl }}/fonts.css" rel="stylesheet" charset="utf-8">
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
-  <meta property="og:title"              content="{{ site.name }}" />
-  <meta property="og:description"        content="{{ site.description }}" />
+  <meta property="og:title"              content="{{ page.title}} – {{ site.name }}" />
+  <meta property="og:description"        content="{{ page.excerpt }}" />
   </head>
 <body>
   <div class="container_post">

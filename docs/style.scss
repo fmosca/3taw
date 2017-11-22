@@ -35,6 +35,21 @@ a {
   &:focus {
     text-decoration: underline;
   }
+
+}
+
+.ext-link {
+  margin: 1em 0 1em 0;
+}
+
+.ext-link a {
+  background-color: #800000;
+  color: white;
+  padding: .5rem;
+
+  &:before {
+      content: "➜ ";
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
